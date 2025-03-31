@@ -61,6 +61,16 @@
         <h3>Bloque 6</h3>
         <p>Probabilidad. Distribución Binomial y Distribución Normal.</p>
     </div>
+    <div class="card" oncontextmenu="abrirNuevaPestana(event, 'https://ejemplo.com')">
+        <h3>Haz clic derecho aquí</h3>
+    </div>
+    
+    <script>
+        function abrirNuevaPestana(event, url) {
+            event.preventDefault(); // Evita el menú contextual
+            window.open(url, '_blank'); // Abre en nueva pestaña
+        }
+    </script>
 </div>
 
 </body>
