@@ -64,17 +64,17 @@
     <div class="card" oncontextmenu="abrirNuevaPestana(event, 'https://ejemplo.com')">
         <h3>Haz clic derecho aquí</h3>
     </div>
-    
     <script>
         function abrirNuevaPestana(event, url) {
             event.preventDefault(); // Evita el menú contextual
             window.open(url, '_blank'); // Abre en nueva pestaña
         }
     </script>
-<div class="card" onclick="window.open('https://ejemplo.com', '_blank')">
-    <h3>Título de la Tarjeta</h3>
-    <p>Descripción...</p>
-</div>
+    
+    <div class="card" onclick="window.open('https://ejemplo.com', '_blank')">
+        <h3>Título de la Tarjeta</h3>
+        <p>Descripción...</p>
+    </div>
 </div>
 
 </body>
